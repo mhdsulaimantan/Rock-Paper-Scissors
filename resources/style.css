@@ -25,7 +25,7 @@ body{
     background-color: whitesmoke;
 }
 
-.user-section, .user-section, .computer-section, .user-move, .computer-move{
+.user-section, .user-section, .computer-section, #user-move, #computer-move{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -52,12 +52,25 @@ button:hover {
 
 #rock-move, #paper-move, #scissors-move, #rock-btn, #paper-btn, #scissors-btn{
     width: 100px;
-    height: 125px;
+    height: 110px;
     text-align: center;
 }
 
 #result{
-    text-align: center;
-    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
 }
 
+#reset-btn{
+    width: 70px;
+    height: 70px;
+    visibility: hidden;
+}
+
+#reset-btn:hover{
+    background-color: lightcyan;
+}
