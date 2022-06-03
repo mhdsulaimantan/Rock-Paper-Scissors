@@ -1,0 +1,63 @@
+body, .header, .container{
+    display: flex;
+    gap: 18px;
+    font-family: sans-serif;
+}
+
+body, .header{
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: rgb(231, 223, 213);
+}
+
+.container, .header{
+    flex-direction: column;
+}
+
+.container{
+    border-radius: 30px;
+    width: 700px;
+    height: auto;
+    margin: 20px;
+    background-color: whitesmoke;
+}
+
+.user-section, .user-section, .computer-section, .user-move, .computer-move{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+i{
+    font-size: 50px;
+}
+
+button{
+    background-color: rgb(242, 239, 227);
+    border-radius: 75px;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
+
+#rock-move, #paper-move, #scissors-move, #rock-btn, #paper-btn, #scissors-btn{
+    width: 100px;
+    height: 125px;
+    text-align: center;
+}
+
+#result{
+    text-align: center;
+    font-size: 30px;
+}
+
