@@ -1,1 +1,1 @@
-web: gunicorn SmallStoreWebsite.wsgi
+web: gunicorn Rock-Paper-Scissors.wsgi
